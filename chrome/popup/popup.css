@@ -31,3 +31,11 @@ menuitem[type=radio] .menu-iconic-icon {
 	height: 16px !important;
 	margin-inline-start: 0 !important;
 }
+
+.PanelUI-subView menuseparator, #PlacesToolbar menupopup[placespopup="true"] toolbarseparator, #widget-overflow-mainView > toolbarseparator, #widget-overflow-mainView > .panel-subview-body > toolbarseparator, .PanelUI-subView toolbarseparator, #permission-popup-mainView > toolbarseparator, #protections-popup-multiView toolbarseparator, #identity-popup-mainView toolbarseparator, #identity-popup-securityView > toolbarseparator, #editBookmarkPanel toolbarseparator, #downloadsFooterButtons > toolbarseparator, .cui-widget-panelview menuseparator, .cui-widget-panel toolbarseparator {
+	border-top: 0px solid transparent !important;
+}
+
+#PlacesToolbar menupopup[placespopup="true"] menuseparator::before {
+	border-top: 0px solid transparent !important;
+}

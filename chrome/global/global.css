@@ -166,7 +166,7 @@
 
 /* legacy */
 #navigator-toolbox {
-	border-bottom: 1px solid var(--chrome-content-separator-color, var(--toolbox-border-bottom-color)) !important;
+	border-bottom: 0px solid transparent !important;
 }
 
 /* legacy */
