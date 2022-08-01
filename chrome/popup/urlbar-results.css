@@ -398,17 +398,17 @@
 
 /* icons 1x */
 #urlbar {
-	--info-icon: url(../icons/info-1x.svg);
-	--lock-icon: url(../icons/connection-1x.svg);
-	--warning-icon: url(../icons/connection-warning-1x.svg);
+	--info-icon: url(../icons/urlbar/info-1x.svg);
+	--lock-icon: url(../icons/urlbar/connection-1x.svg);
+	--warning-icon: url(../icons/urlbar/connection-warning-1x.svg);
 }
 
 /* icons 2x */
 @media (min--moz-device-pixel-ratio: 2) {
 	#urlbar {
-		--info-icon: url(../icons/info-2x.svg);
-		--lock-icon: url(../icons/connection-2x.svg);
-		--warning-icon: url(../icons/connection-warning-2x.svg);
+		--info-icon: url(../icons/urlbar/info-2x.svg);
+		--lock-icon: url(../icons/urlbar/connection-2x.svg);
+		--warning-icon: url(../icons/urlbar/connection-warning-2x.svg);
 	}
 }
 

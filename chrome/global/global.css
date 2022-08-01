@@ -65,8 +65,8 @@
 	fill-opacity: 0 !important;
 
 	background-image:
-		url(../icons/circle.svg),
-		url(../icons/circle.svg) !important;
+		url(../icons/global/circle.svg),
+		url(../icons/global/circle.svg) !important;
 	background-size: 25% !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;

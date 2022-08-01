@@ -19,11 +19,11 @@ menu[disabled=true] {
 
 .menu-right {
 	appearance: none !important;
-	list-style-image: url(../icons/menu-right-1x.svg) !important;
+	list-style-image: url(../icons/popup/menu-right-1x.svg) !important;
 }
 
 menuitem[type=radio][checked=true] {
-	list-style-image: url(../icons/checkmark-18dp.svg) !important;
+	list-style-image: url(../icons/popup/checkmark-18dp.svg) !important;
 }
 
 menuitem[type=radio] .menu-iconic-icon {
@@ -38,4 +38,12 @@ menuitem[type=radio] .menu-iconic-icon {
 
 #PlacesToolbar menupopup[placespopup="true"] menuseparator::before {
 	border-top: 0px solid transparent !important;
+}
+
+menuseparator {
+	border-top: 0px solid transparent !important;
+}
+
+menupopup {
+	--panel-border-color: transparent;
 }

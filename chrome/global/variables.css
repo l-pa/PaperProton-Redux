@@ -39,7 +39,7 @@
 	/* popup_highlight_text */
 	--autocomplete-popup-highlight-color: #202124 !important;
 
-	--search-icon-url: url("../icons/search.svg");
+	--search-icon-url: url("../icons/other/search.svg");
 }
 
 /* don't bother with sidebar in light mode */
@@ -95,7 +95,7 @@
 
 	/* popup_highlight_text */
 	--autocomplete-popup-highlight-color: #fff !important;
-	--search-icon-url: url("../icons/search_dark.svg");
+	--search-icon-url: url("../icons/other/search_dark.svg");
 }
 
 :-moz-any(#sidebar-box, #sidebar)[style*="--sidebar-background-color:rgb(56, 56, 61);"] {
