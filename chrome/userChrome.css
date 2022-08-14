@@ -7,3 +7,6 @@
 @import 'popup/popup.css';
 @import 'urlbar/urlbar.css';
 @import 'findbar/findbar.css';
+@import url("./context/simpleMenuWizard.css");
+
+menupopup > menuitem, menupopup > menu {padding-block: 4px !important;}

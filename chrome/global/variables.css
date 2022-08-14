@@ -7,7 +7,7 @@
 
 	/* textcolor */
 	--lwt-text-color: #606368 !important;
-
+	--urlbar-popup-url-color: #0061e0 !important;
 	/* toolbar */
 	--toolbar-bgcolor: #fff !important;
 
@@ -31,7 +31,7 @@
 	/* button_background_active */
 	--lwt-toolbarbutton-active-background: rgba(0, 0, 0, .11) !important;
 
-	--lwt-toolbar-field-color: #202124 !important;
+	--lwt-toolbar-field-color: #000000 !important;
 
 	/* popup_highlight */
 	--autocomplete-popup-highlight-background: #f2f2f2 !important;
@@ -49,6 +49,8 @@
 :root[privatebrowsingmode=temporary] {
 	/* accentcolor */
 	--lwt-accent-color: #202124 !important;
+
+	--urlbar-popup-url-color: #4897ff !important;
 
 	/* textcolor */
 	--lwt-text-color: #9ba0a5 !important;
@@ -79,7 +81,7 @@
 	--lwt-toolbar-field-color: #fff !important;
 
 	/* popup */
-	--arrowpanel-background: #373737 !important;
+	--arrowpanel-background: #37373700 !important;
 
 	/* popup_text */
 	--arrowpanel-color: #fff !important;

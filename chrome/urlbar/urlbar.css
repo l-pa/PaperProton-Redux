@@ -10,11 +10,11 @@
 .urlbarView-row-inner {
 	align-items: center !important;
 	position: relative !important;
-	padding: 12px 0 !important;
+	padding: 6px 0 !important;
 	padding-inline: 48px 16px !important;
 	max-width: 100% !important;
 	width: auto !important;
-	color: inherit !important;
+	color: var(--lwt-toolbar-field-color) !important;
 }
 
 .urlbarView-row-inner:hover {
